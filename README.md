@@ -4,4 +4,4 @@
 
 This is an implementation of On the Map, the third project in the iOS Developer Nanodegree.
 
-## Known Issues
+Some issues can be found about Swift 2.0
