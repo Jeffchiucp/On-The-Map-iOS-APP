@@ -13,3 +13,9 @@ Set the properties such as background color, viewStyle, and so on. If you get lo
 it uses Facebook SKD 4.0.1 and for this reason it need the SDK installed at ~/Documents/FacebookSDK/
 
 However, to be able to compile it you have to remove the module maps manually from each of the FBSDK*Kit.framework bundles; e.g., rm -r ~/Documents/FacebookSDK/FBSDKCoreKit.framework/Modules/ (and repeat for FBSDKLoginKit and FBSDKShareKit. More info
+
+Udacity API
+
+This way the value is shown in the string.
+
+request.HTTPBody = "{\"udacity\": {\"username\": \"\(username.text!)\", \"password\": \"\(password.text!)\"}}".dataUsingEncoding(NSUTF8StringEncoding)
