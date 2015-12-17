@@ -5,6 +5,8 @@
 //  Created by Jeff Chiu on 12/04/15.
 //  Copyright (c) 2015 Jeff Chiu. All rights reserved.
 //
+// include some test cases
+// allow the users to test them
 
 import Foundation
 
