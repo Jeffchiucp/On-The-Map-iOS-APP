@@ -18,9 +18,13 @@ However, to be able to compile it you have to remove the module maps manually fr
 
 Udacity API
 https://www.udacity.com/api/session
+
 This way the value is shown in the string.
 
 request.HTTPBody = "{\"udacity\": {\"username\": \"\(username.text!)\", \"password\": \"\(password.text!)\"}}".dataUsingEncoding(NSUTF8StringEncoding)
+
+Parsing JSON instruction
+https://docs.google.com/document/d/1E7JIiRxFR3nBiUUzkKal44l9JkSyqNWvQrNH4pDrOFU/pub?embedded=true
 
 Use 'UIActivityIndicatorView' to indicate an activity during the geocoding. 
 Set the properties such as background color, viewStyle, and so on. If you get location information successfully after geocoding, you can stop it in the completion block.
