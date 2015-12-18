@@ -29,3 +29,10 @@ https://docs.google.com/document/d/1E7JIiRxFR3nBiUUzkKal44l9JkSyqNWvQrNH4pDrOFU/
 Use 'UIActivityIndicatorView' to indicate an activity during the geocoding. 
 Set the properties such as background color, viewStyle, and so on. If you get location information successfully after geocoding, you can stop it in the completion block.
 
+
+Helpful Resources:
+http://docs.themoviedb.apiary.io/#reference/authentication/authenticationsessionnew
+https://github.com/udacity/ios-networking-2.0
+https://docs.google.com/document/d/1MECZgeASBDYrbBg7RlRu9zBBLGd3_kfzsN-0FtURqn0/pub?embedded=true
+https://docs.google.com/document/d/1E7JIiRxFR3nBiUUzkKal44l9JkSyqNWvQrNH4pDrOFU/pub?embedded=true
+https://www.udacity.com/api/session
