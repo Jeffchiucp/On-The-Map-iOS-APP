@@ -31,8 +31,18 @@ Set the properties such as background color, viewStyle, and so on. If you get lo
 
 
 Helpful Resources:
+
+
 http://docs.themoviedb.apiary.io/#reference/authentication/authenticationsessionnew
 https://github.com/udacity/ios-networking-2.0
 https://docs.google.com/document/d/1MECZgeASBDYrbBg7RlRu9zBBLGd3_kfzsN-0FtURqn0/pub?embedded=true
 https://docs.google.com/document/d/1E7JIiRxFR3nBiUUzkKal44l9JkSyqNWvQrNH4pDrOFU/pub?embedded=true
 https://www.udacity.com/api/session
+
+Codes Snippet:
+
+let request = NSMutableURLRequest(URL: url)
+request.HTTPMethod = "POST"
+request.addValue("application/json", forHTTPHeaderField: "Accept")
+request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+request.HTTPBody = "{\"media_type\": \"movie\",\"media_id\":550,\"favorite\":true}".dataUsingEncoding(NSUTF8StringEncoding)
