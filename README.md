@@ -4,6 +4,10 @@
 
 This is an implementation of On the Map, the third project in the iOS Developer Nanodegree.
 
+The app has a login page that accepts email and password strings from users, with a “Login” button.
+The app uses an Alert View Controller to notify the user if the login connection fails. It differentiates between a failure to connect, and incorrect credentials (i.e., wrong email or password).
+
+
 Helpful information [https://docs.google.com/document/d/1MECZgeASBDYrbBg7RlRu9zBBLGd3_kfzsN-0FtURqn0/pub?embedded=true]
 • The networking and JSON parsing code is located in a dedicated API client class (and not, for example, inside a view controller). The class uses closures for completion and error handling.
 • The networking code uses Swift's built-in NSURLSession library, not a third-party framework.
