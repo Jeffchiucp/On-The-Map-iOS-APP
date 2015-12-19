@@ -10,6 +10,7 @@ The app uses an Alert View Controller to notify the user if the login connection
 The app downloads the 100 most recent locations posted by students.
 The app contains a StudentInformation struct with appropriate properties for locations and links.
 The struct has an init() method that accepts a dictionary as an argument.
+The app displays an alert if the geocoding fails.
 
 
 Helpful information [https://docs.google.com/document/d/1MECZgeASBDYrbBg7RlRu9zBBLGd3_kfzsN-0FtURqn0/pub?embedded=true]
