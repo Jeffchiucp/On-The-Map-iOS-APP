@@ -4,8 +4,8 @@
 
 This is an implementation of On the Map, the third project in the iOS Developer Nanodegree.
 
-The app has a login page that accepts email and password strings from users, with a “Login” button.
-The app uses an Alert View Controller to notify the user if the login connection fails. It differentiates between a failure to connect, and incorrect credentials (i.e., wrong email or password).
+This app has a login page that accepts email and password strings from users, with a “Login” button.
+This app uses an Alert View Controller to notify the user if the login connection fails. It differentiates between a failure to connect, and incorrect credentials (i.e., wrong email or password).
 
 The app downloads the 100 most recent locations posted by students.
 The app contains a StudentInformation struct with appropriate properties for locations and links.
