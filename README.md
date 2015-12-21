@@ -2,7 +2,7 @@
 
 [Platform iOS]
 
-This is an implementation of On the Map, the third project in the iOS Developer Nanodegree.
+This is an implementation of On the Map, the third project in Udacity's iOS Developer Nanodegree.
 
 This app has a login page that accepts email and password strings from users, with a “Login” button.
 This app uses an Alert View Controller to notify the user if the login connection fails. It differentiates between a failure to connect, and incorrect credentials (i.e., wrong email or password).
@@ -40,7 +40,6 @@ Set the properties such as background color, viewStyle, and so on. If you get lo
 
 
 Helpful Resources:
-
 
 http://docs.themoviedb.apiary.io/#reference/authentication/authenticationsessionnew
 https://github.com/udacity/ios-networking-2.0
