@@ -4,26 +4,8 @@
 
 This is an implementation of On the Map, the third project in Udacity's iOS Developer Nanodegree.
 
-This app has a login page that accepts email and password strings from users, with a “Login” button.
-This app uses an Alert View Controller to notify the user if the login connection fails. It differentiates between a failure to connect, and incorrect credentials (i.e., wrong email or password).
-
-The app downloads the 100 most recent locations posted by students.
-The app contains a StudentInformation struct with appropriate properties for locations and links.
-The struct has an init() method that accepts a dictionary as an argument.
-The app displays an alert if the geocoding fails.
-
-
-Helpful information [https://docs.google.com/document/d/1MECZgeASBDYrbBg7RlRu9zBBLGd3_kfzsN-0FtURqn0/pub?embedded=true]
-• The networking and JSON parsing code is located in a dedicated API client class (and not, for example, inside a view controller). The class uses closures for completion and error handling.
-• The networking code uses Swift's built-in NSURLSession library, not a third-party framework.
-• The JSON parsing code uses Swift's built-in NSJSONSerialization library, not a third-party framework.
-
 [Important Note]
 Some issues can be found about Swift 2.0
-
-it uses Facebook SKD 4.0.1 and for this reason it need the SDK installed at ~/Documents/FacebookSDK/
-
-However, to be able to compile it you have to remove the module maps manually from each of the FBSDK*Kit.framework bundles; e.g., rm -r ~/Documents/FacebookSDK/FBSDKCoreKit.framework/Modules/ (and repeat for FBSDKLoginKit and FBSDKShareKit. More info
 
 Udacity API
 https://www.udacity.com/api/session
@@ -46,6 +28,10 @@ https://github.com/udacity/ios-networking-2.0
 https://docs.google.com/document/d/1MECZgeASBDYrbBg7RlRu9zBBLGd3_kfzsN-0FtURqn0/pub?embedded=true
 https://docs.google.com/document/d/1E7JIiRxFR3nBiUUzkKal44l9JkSyqNWvQrNH4pDrOFU/pub?embedded=true
 https://www.udacity.com/api/session
+
+• The networking and JSON parsing code is located in a dedicated API client class (and not, for example, inside a view controller). The class uses closures for completion and error handling.
+• The networking code uses Swift's built-in NSURLSession library, not a third-party framework.
+• The JSON parsing code uses Swift's built-in NSJSONSerialization library, not a third-party framework.
 
 Codes Snippet:
 
