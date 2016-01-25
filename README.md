@@ -1,18 +1,21 @@
 # On the Map
 
 [Platform iOS]
-
-This is an implementation of On the Map, the third project in Udacity's iOS Developer Nanodegree.
+This project is “On the Map” app which allows users to share interesting links, projects, or other information with fellow Udacity students.  On the Map is the third project in Udacity's iOS Developer Nanodegree. This framework also provides support for annotating the map, adding overlays, and performing reverse-geocoding lookups to determine placemark information for a given map coordinate.
 
 [Important Note]
-Some issues can be found about Swift 2.0
+This codes is updated to Swift 2.0 and iOS 9
+To use the features of the Map Kit framework, turn on the Maps capability. 
+Make sure you enabled the Udacity API to run the project.
 
 Udacity API
 https://www.udacity.com/api/session
-
 This way the value is shown in the string.
-
 request.HTTPBody = "{\"udacity\": {\"username\": \"\(username.text!)\", \"password\": \"\(password.text!)\"}}".dataUsingEncoding(NSUTF8StringEncoding)
+
+
+Parse API: 
+https://docs.google.com/document/d/1E7JIiRxFR3nBiUUzkKal44l9JkSyqNWvQrNH4pDrOFU/pub?embedded=true
 
 Parsing JSON instruction
 https://docs.google.com/document/d/1E7JIiRxFR3nBiUUzkKal44l9JkSyqNWvQrNH4pDrOFU/pub?embedded=true
