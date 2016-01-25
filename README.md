@@ -8,6 +8,19 @@ This codes is updated to Swift 2.0 and iOS 9
 To use the features of the Map Kit framework, turn on the Maps capability. 
 Make sure you enabled the Udacity API to run the project.
 
+[How to Run the Code]
+Download the zip files and run the xcode project onthemap.xcodeproj. And Run the project.
+
+[Login Feature]
+adding the ability to login/authenticate to Udacity via Facebook.  
+You will want to do the following things:
+
+Read through Facebook's documentation on their login feature
+Use the Facebook API ID "365362206864879"
+Use the Facebook URL Scheme Suffix "onthemap"
+Connect your Udacity user to your Facebook account via Udacity's website 
+
+
 Udacity API
 https://www.udacity.com/api/session
 This way the value is shown in the string.
@@ -31,10 +44,6 @@ https://github.com/udacity/ios-networking-2.0
 https://docs.google.com/document/d/1MECZgeASBDYrbBg7RlRu9zBBLGd3_kfzsN-0FtURqn0/pub?embedded=true
 https://docs.google.com/document/d/1E7JIiRxFR3nBiUUzkKal44l9JkSyqNWvQrNH4pDrOFU/pub?embedded=true
 https://www.udacity.com/api/session
-
-• The networking and JSON parsing code is located in a dedicated API client class (and not, for example, inside a view controller). The class uses closures for completion and error handling.
-• The networking code uses Swift's built-in NSURLSession library, not a third-party framework.
-• The JSON parsing code uses Swift's built-in NSJSONSerialization library, not a third-party framework.
 
 Codes Snippet:
 
